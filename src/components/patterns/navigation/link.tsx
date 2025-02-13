@@ -1,5 +1,5 @@
-import { forwardRef } from 'react';
-import { cn } from '@/lib/utils';
+import { forwardRef } from "react";
+import { cn } from "@/lib/utils";
 
 export const Link = forwardRef<
   HTMLAnchorElement,
@@ -9,8 +9,8 @@ export const Link = forwardRef<
     <a
       ref={ref}
       className={cn(
-        'text-primary underline-offset-4 hover:underline',
-        className
+        "text-primary underline-offset-4 hover:underline",
+        className,
       )}
       {...props}
     >

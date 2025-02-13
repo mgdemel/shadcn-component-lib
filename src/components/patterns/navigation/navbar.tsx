@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -6,9 +6,9 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from '@/components/ui/navigation-menu';
-import { cn } from '@/lib/utils';
-import { Link } from '@/components/patterns/navigation/link';
+} from "@/components/ui/navigation-menu";
+import { cn } from "@/lib/utils";
+import { Link } from "@/components/patterns/navigation/link";
 
 export function Navbar() {
   return (
@@ -83,7 +83,7 @@ const ListItem = ({
           href={href}
           className={cn(
             "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
+            className,
           )}
         >
           <div className="text-sm font-medium leading-none">{title}</div>
